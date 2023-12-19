@@ -1,31 +1,31 @@
-Langkah 1: Pemahaman Node.js Module System
-Memahami konsep sistem modul dalam Node.js.
-Konsep CommonJS, modul, require(), dan module.exports.
-Memahami modul bawaan (built-in modules) dalam Node.js.
-Langkah 2: Node Package Manager (NPM)
-Memahami peran NPM dalam mengelola paket perangkat lunak Node.js.
-Konsep paket, package.json, instalasi paket, dan publikasi paket.
-Langkah 3: Command Line Arguments
-Pemahaman tentang command line arguments pada Node.js.
-Menggunakan process.argv untuk mengakses dan mengelola argumen dari baris perintah.
-Langkah 4: Menulis dan Membaca File
-Menggunakan modul fs untuk menulis dan membaca file.
-Menerapkan penulisan dan pembacaan file dalam skrip Node.js.
-Langkah 5: Penggunaan Eksternal Package (Validator)
-Menggunakan NPM untuk menginstal paket eksternal (validator).
-Mengintegrasikan paket eksternal ke dalam aplikasi Node.js.
-Langkah 6: Penggunaan Chalk untuk Warna Teks
-Menginstal dan menggunakan paket Chalk untuk memformat teks dengan warna.
-Mencetak teks dengan warna yang berbeda.
-Langkah 7: Penggunaan Nodemon
-Menginstal dan menggunakan Nodemon untuk memantau perubahan file secara real-time.
-Meningkatkan efisiensi dalam pengembangan dengan Nodemon.
-Langkah 8: Argument Parsing dengan Yargs
-Menggunakan paket Yargs untuk mempermudah penguraian dan penanganan argumen.
-Membuat perintah (command) tambah, hapus, dan menampilkan dengan Yargs.
-Langkah 9: Operasi pada File JSON
-Menulis dan membaca file dalam format JSON.
-Menerapkan operasi CRUD (Create, Read, Update, Delete) pada data dalam file JSON.
-Langkah 10: Keseluruhan Program
-Membuat aplikasi sederhana berbasis jaringan dengan Node.js.
-Menggunakan modul-modul, eksternal packages, dan tools untuk meningkatkan fungsionalitas dan efisiensi.
+Catatan Aplikasi Node.js Berbasis Jaringan 🚀
+Selamat datang di aplikasi Node.js berbasis jaringan yang sederhana! Dalam proyek ini, Anda akan menemukan langkah-langkah penerapan pemrograman berbasis jaringan menggunakan Node.js. Aplikasi ini mencakup konsep-konsep seperti modul, manajemen paket dengan NPM, pengelolaan file, dan penggunaan command line arguments.
+
+Persiapan Lingkungan Kerja
+Pastikan PC Anda terhubung ke internet.
+Instal Visual Studio Code sebagai editor kode.
+Instal Node.js dan NPM di komputer Anda.
+Sistem Modul di Node.js
+Pelajari konsep CommonJS, modul, fungsi require(), dan module.exports.
+Eksplor modul bawaan (built-in modules) yang disertakan oleh Node.js.
+Menggunakan Node Package Manager (NPM)
+Buat proyek baru dengan npm init.
+Instal paket seperti validator dan chalk untuk mempercepat pengembangan.
+Command Line Arguments pada Node.js
+Buat program Node.js dengan menggunakan process.argv.
+Jalankan program dengan memberikan command line arguments.
+Membuat Aplikasi Catatan Sederhana
+Implementasikan fungsi tambah, hapus, dan tampilkan catatan.
+Manfaatkan modul fs untuk manipulasi file.
+Argument Parsing Menggunakan Yargs
+Instal package yargs untuk parsing argument dengan mudah.
+Gunakan yargs untuk membuat perintah tambah, hapus, list, dan read.
+Bonus: Menggunakan Nodemon
+Instal global package nodemon untuk pengembangan lebih dinamis.
+Gunakan nodemon untuk menjalankan aplikasi secara otomatis saat ada perubahan.
+Bonus: Menyimpan Data dalam Format JSON
+Gunakan format JSON untuk menyimpan data catatan.
+Baca dan tulis data JSON dengan modul fs.
+Testing
+Uji aplikasi dengan berbagai input.
+Pastikan aplikasi berfungsi sesuai spesifikasi.
